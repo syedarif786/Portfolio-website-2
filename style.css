@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+span{
+    
+    color: orange;
+}
+
+.banner{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+    min-height: 100vh;
+    background: #fff;
+
+
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+    margin: 0 50px;
+    
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+ul>li{
+    padding: 10px;
+}
+.content h1{
+    font-size: 4rem;
+    margin-bottom: 10px;
+}
+.content p{
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom:8px ;
+}
+
+button{
+    padding: 15px;;
+    width: 150px;
+    height: 50;
+    cursor: pointer;
+    font-weight: bolder;
+    border-radius: 10px;
+    
+}
+.join{
+    margin-right: 10px;
+    background: orange;
+}
+.chat{
+    border: 0px;
+    background: #fff;
+    
+    
+}
+.dayNight{
+    position:absolute;
+    bottom: 25px;
+    left: 50%;
+    height: 60px;
+    width: 60px;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.banner.night{
+    background: #333;
+}
+
+.banner.night header a,
+.banner.night header nav,
+.banner.night .content h1,
+.banner.night .content p{
+    color: #fff;
+}
